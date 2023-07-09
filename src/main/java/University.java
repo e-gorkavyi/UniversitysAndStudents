@@ -24,7 +24,7 @@ public class University {
         result.append("Full name: ").append(fullName).append("\n");
         result.append("Short name: ").append(shortName).append("\n");
         result.append("Year of foundation: ").append(yearOfFoundation).append("\n");
-        result.append("Main profile: ").append(mainProfile.getProfile()).append("\n");
+        result.append("Main profile: ").append(mainProfile.toString()).append("\n");
 
         return result.toString();
     }
