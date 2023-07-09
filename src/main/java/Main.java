@@ -1,20 +1,37 @@
-public class Main {
-    public static void main(String[] args) {
-        University university = new University(
-                "НГТУ",
-                "Новосибирский Государственный Технический Университет",
-                "НЭТИ",
-                1953,
-                StudyProfile.IIGENEER);
-        Student student = new Student(
-                "Кузнецов Спиридон Никонорович",
-                "НГТУ",
-                2,
-                4.2F);
+import org.apache.poi.xssf.usermodel.XSSFSheet;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
-        System.out.println("ВУЗ");
-        System.out.println(university);
-        System.out.println("Студент");
-        System.out.println(student);
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.net.URISyntaxException;
+import java.net.URL;
+import java.nio.file.Paths;
+import java.util.ArrayList;
+
+public class Main {
+    public static void main(String[] args) throws IOException, URISyntaxException {
+        URL resource = Main.class.getResource("universityInfo.xlsx");
+        assert resource != null;
+        final String FILE_NAME = Paths.get(resource.toURI()).toFile().getAbsolutePath();
+
+        FileInputStream inputStream = new FileInputStream(FILE_NAME);
+        XSSFWorkbook workbook = new XSSFWorkbook(inputStream);
+        XSSFSheet sheetStudents = workbook.getSheet("Студенты");
+        XSSFSheet sheetUniversities = workbook.getSheet("Университеты");
+
+        XLSXRead reader = XLSXRead.INSTANCE;
+
+        ArrayList<Student> students = reader.getStudents(sheetStudents);
+        ArrayList<University> universities = reader.getUnivetsities(sheetUniversities);
+
+        System.out.println("---------------- Students: -------------");
+        for (Student student : students) {
+            System.out.println(student);
+        }
+
+        System.out.println("---------------- Universities: -------------");
+        for (University university : universities) {
+            System.out.println(university);
+        }
     }
 }
