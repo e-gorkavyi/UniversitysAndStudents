@@ -3,14 +3,15 @@ import org.apache.poi.xssf.usermodel.XSSFSheet;
 
 import java.util.ArrayList;
 import java.util.Iterator;
+import java.util.List;
 
 public class XLSXRead {
     private XLSXRead() {}
 
     public static final XLSXRead INSTANCE = new XLSXRead();
 
-    public ArrayList<Student> getStudents(XSSFSheet studentsSheet) {
-        ArrayList<Student> students = new ArrayList<>();
+    public List<Student> getStudents(XSSFSheet studentsSheet) {
+        List<Student> students = new ArrayList<>();
 
         Iterator<Row> iteratorStudents = studentsSheet.iterator();
         iteratorStudents.next();
@@ -29,8 +30,8 @@ public class XLSXRead {
         return students;
     }
 
-    public ArrayList<University> getUnivetsities(XSSFSheet universitiesSheet) {
-        ArrayList<University> universities = new ArrayList<>();
+    public List<University> getUnivetsities(XSSFSheet universitiesSheet) {
+        List<University> universities = new ArrayList<>();
 
         Iterator<Row> iteratorUniversities = universitiesSheet.iterator();
         iteratorUniversities.next();

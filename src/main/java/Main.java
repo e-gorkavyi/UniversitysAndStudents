@@ -8,6 +8,7 @@ import java.net.URL;
 import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.Comparator;
+import java.util.List;
 
 public class Main {
     public static void main(String[] args) throws IOException, URISyntaxException {
@@ -22,8 +23,8 @@ public class Main {
 
         XLSXRead reader = XLSXRead.INSTANCE;
 
-        ArrayList<Student> students = reader.getStudents(sheetStudents);
-        ArrayList<University> universities = reader.getUnivetsities(sheetUniversities);
+        List<Student> students = reader.getStudents(sheetStudents);
+        List<University> universities = reader.getUnivetsities(sheetUniversities);
 
         StudentComparator studentNameCompare =
                 ComparatorFactory.getStudentComparator(StudentCompareType.NAME);
@@ -45,12 +46,46 @@ public class Main {
         UniversityComparator universityMainProfileCompare =
                 ComparatorFactory.getUniversityComparator(UniversityCompareType.MAIN_PROFILE);
 
-        System.out.println("------------ Students by average score desc --------------");
-        assert studentAVGScoreCompare != null;
-        students.stream().sorted(studentAVGScoreCompare).forEach(System.out::println);
+//        System.out.println("------------ Students by average score desc --------------");
+//        assert studentAVGScoreCompare != null;
+//        students.stream().sorted(studentAVGScoreCompare).forEach(System.out::println);
+//
+//        System.out.println("------------ Universities by year of foundation asc --------------");
+//        assert universityYOFCompare != null;
+//        universities.stream().sorted(universityYOFCompare).forEach(System.out::println);
 
-        System.out.println("------------ Universities by year of foundation asc --------------");
-        assert universityYOFCompare != null;
-        universities.stream().sorted(universityYOFCompare).forEach(System.out::println);
+        String studentsJSON = JsonUtil.studentCollectionSerialize(students);
+        System.out.println(studentsJSON);
+
+        String universityJSON = JsonUtil.universityCollectionSerialize(universities);
+        System.out.println(universityJSON);
+
+        List<Student> studentList = JsonUtil.studentCollectionDeserialize(studentsJSON);
+        List<University> universityList = JsonUtil.universityCollectionDeserialize(universityJSON);
+
+        if (students.size() == studentList.size())
+            System.out.println("Student collection sizes equal");
+        else
+            System.out.println("Student collection sizes NOT equal");
+
+        if (universities.size() == universityList.size())
+            System.out.println("Student collection sizes equal");
+        else
+            System.out.println("Student collection sizes NOT equal");
+
+        students.stream().forEach(e ->
+            {
+                String s = JsonUtil.studentSerialize(e);
+                System.out.println(s);
+                System.out.println(JsonUtil.studentDeserialize(s));
+            }
+        );
+        universities.stream().forEach(e ->
+                {
+                    String u = JsonUtil.universitySerialize(e);
+                    System.out.println(u);
+                    System.out.println(JsonUtil.universityDeserialize(u));
+                }
+        );
     }
 }
