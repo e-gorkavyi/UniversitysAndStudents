@@ -1,4 +1,4 @@
-public enum UniversityComparators {
+public enum UniversityCompareType {
     FULL_NAME,
     SHORT_NAME,
     ID,

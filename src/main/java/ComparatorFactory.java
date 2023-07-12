@@ -1,5 +1,5 @@
 public class ComparatorFactory {
-    public static StudentComparator getStudentComparator(StudentComparators compareType) {
+    public static StudentComparator getStudentComparator(StudentCompareType compareType) {
         switch (compareType) {
             case NAME -> {
                 return new StudentNameCompare();
@@ -17,7 +17,7 @@ public class ComparatorFactory {
         return null;
     }
 
-    public static UniversityComparator getUniversityComparator(UniversityComparators compareType) {
+    public static UniversityComparator getUniversityComparator(UniversityCompareType compareType) {
         switch (compareType) {
             case ID -> {
                 return new UniversityIdCompare();
