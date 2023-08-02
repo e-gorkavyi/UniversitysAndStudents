@@ -1,3 +1,5 @@
+package Comparators;
+
 public class ComparatorFactory {
     public static StudentComparator getStudentComparator(StudentCompareType compareType) {
         switch (compareType) {

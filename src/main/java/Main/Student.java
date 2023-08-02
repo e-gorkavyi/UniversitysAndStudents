@@ -1,3 +1,5 @@
+package Main;
+
 import com.google.gson.annotations.SerializedName;
 
 public class Student {
@@ -9,6 +11,10 @@ public class Student {
     private int currentCourseNumber;
     @SerializedName("AverageExamScore")
     private float avgExamScore;
+
+    public boolean equalsByID(University university) {
+        return this.universityId.equals(university.getId());
+    }
 
     public Student() {
         this("", "", 0, 0);
@@ -25,7 +31,7 @@ public class Student {
     public String toString() {
         StringBuffer result = new StringBuffer();
         result.append("Full name: ").append(fullName).append("\n");
-        result.append("University ID: ").append(universityId).append("\n");
+        result.append("Main.University ID: ").append(universityId).append("\n");
         result.append("Current course number: ").append(currentCourseNumber).append("\n");
         result.append("Average exam score: ").append(avgExamScore).append("\n");
 

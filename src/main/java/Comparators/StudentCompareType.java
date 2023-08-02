@@ -1,3 +1,5 @@
+package Comparators;
+
 public enum StudentCompareType {
     AVG_SCORE,
     CURRENT_COURSE,

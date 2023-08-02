@@ -1,11 +1,20 @@
+package XLSX;
+
+import Main.Student;
+import Main.StudyProfile;
+import Main.University;
 import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
-
+import org.apache.logging.log4j.Logger;
+import org.apache.logging.log4j.LogManager;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
+
 public class XLSXRead {
+    protected static final Logger logger = LogManager.getLogger();
+
     private XLSXRead() {}
 
     public static final XLSXRead INSTANCE = new XLSXRead();
@@ -27,6 +36,7 @@ public class XLSXRead {
             ));
         }
 
+        logger.info("Students were read successfully. Size of list: " + students.size());
         return students;
     }
 
@@ -48,6 +58,7 @@ public class XLSXRead {
             ));
         }
 
+        logger.info("Universities were read successfully. Size of list: " + universities.size());
         return universities;
     }
 }

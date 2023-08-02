@@ -1,3 +1,7 @@
+package Comparators;
+
+import Main.University;
+
 public class UniversityYOFCompare implements UniversityComparator {
     @Override
     public int compare(University a, University b) {

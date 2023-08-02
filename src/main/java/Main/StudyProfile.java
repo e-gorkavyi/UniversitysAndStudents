@@ -1,3 +1,5 @@
+package Main;
+
 public enum StudyProfile {
     NOT_DEFINED,
     MEDICINE,

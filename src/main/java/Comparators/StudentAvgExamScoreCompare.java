@@ -1,3 +1,7 @@
+package Comparators;
+
+import Main.Student;
+
 public class StudentAvgExamScoreCompare implements StudentComparator {
     @Override
     public int compare(Student a, Student b) {

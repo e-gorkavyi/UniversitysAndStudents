@@ -1,3 +1,5 @@
+package Main;
+
 import com.google.gson.annotations.SerializedName;
 
 public class University {
@@ -11,6 +13,10 @@ public class University {
     private int yearOfFoundation;
     @SerializedName("MainProfile")
     private StudyProfile mainProfile;
+
+    public boolean equalsByID(Student student) {
+        return this.id.equals(student.getUniversityId());
+    }
 
     public University() {
         this("", "", "", 1900, StudyProfile.NOT_DEFINED);

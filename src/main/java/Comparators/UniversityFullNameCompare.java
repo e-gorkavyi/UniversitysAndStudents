@@ -1,3 +1,6 @@
+package Comparators;
+
+import Main.University;
 import org.apache.commons.lang3.StringUtils;
 
 public class UniversityFullNameCompare implements UniversityComparator {
