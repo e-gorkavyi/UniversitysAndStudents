@@ -151,3 +151,29 @@
     <Message>File writing error.</Message>
   </Event>
 </Events>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1690991173461" thread="main" level="INFO" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1690991173" nanoOfSecond="461398500"/>
+    <Message>--- Application started. ---</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1690991174747" thread="main" level="INFO" loggerName="XLSX.XLSXRead" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1690991174" nanoOfSecond="747268000"/>
+    <Message>Students were read successfully. Size of list: 11</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1690991174760" thread="main" level="INFO" loggerName="XLSX.XLSXRead" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1690991174" nanoOfSecond="760258800"/>
+    <Message>Universities were read successfully. Size of list: 7</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1690991175378" thread="main" level="INFO" loggerName="XLSX.XLSXWriter" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1690991175" nanoOfSecond="378111900"/>
+    <Message>Output file written successfully.</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1690991175379" thread="main" level="INFO" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1690991175" nanoOfSecond="379110700"/>
+    <Message>--- Application finished. ---</Message>
+  </Event>
+</Events>
