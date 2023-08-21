@@ -19,8 +19,8 @@ public class XLSXRead {
 
     public static final XLSXRead INSTANCE = new XLSXRead();
 
-    public List<Student> getStudents(XSSFSheet studentsSheet) {
-        List<Student> students = new ArrayList<>();
+    public ArrayList<Student> getStudents(XSSFSheet studentsSheet) {
+        ArrayList<Student> students = new ArrayList<>();
 
         Iterator<Row> iteratorStudents = studentsSheet.iterator();
         iteratorStudents.next();
@@ -36,12 +36,12 @@ public class XLSXRead {
             ));
         }
 
-        logger.info("Students were read successfully. Size of list: " + students.size());
+        logger.info("StudentCollection were read successfully. Size of list: " + students.size());
         return students;
     }
 
-    public List<University> getUnivetsities(XSSFSheet universitiesSheet) {
-        List<University> universities = new ArrayList<>();
+    public ArrayList<University> getUnivetsities(XSSFSheet universitiesSheet) {
+        ArrayList<University> universities = new ArrayList<>();
 
         Iterator<Row> iteratorUniversities = universitiesSheet.iterator();
         iteratorUniversities.next();
@@ -58,7 +58,7 @@ public class XLSXRead {
             ));
         }
 
-        logger.info("Universities were read successfully. Size of list: " + universities.size());
+        logger.info("UniversityCollection were read successfully. Size of list: " + universities.size());
         return universities;
     }
 }

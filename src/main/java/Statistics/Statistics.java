@@ -1,14 +1,23 @@
 package Statistics;
 
+import Main.StatFields;
 import Main.StudyProfile;
 
 import java.util.List;
+import javax.xml.bind.annotation.*;
 
+@XmlRootElement(name = "statisticsEntry")
+@XmlAccessorType(XmlAccessType.FIELD)
 public class Statistics {
+    @XmlElement(name = "universityProfile")
     private StudyProfile studyProfile;
+    @XmlElement(name = "avgScore")
     private double avgExamScore;
+    @XmlTransient
     private long studentsByProfile;
+    @XmlTransient
     private long universitiesByProfile;
+    @XmlTransient
     private List<String> universitiesNames;
 
     public Statistics(){}

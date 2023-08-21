@@ -1,28 +1,1920 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Events xmlns="http://logging.apache.org/log4j/2.0/events">
 
-  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1690991274668" thread="main" level="INFO" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
-    <Instant epochSecond="1690991274" nanoOfSecond="668933400"/>
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692554471331" thread="main" level="INFO" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692554471" nanoOfSecond="331054600"/>
     <Message>--- Application started. ---</Message>
   </Event>
 
-  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1690991275880" thread="main" level="INFO" loggerName="XLSX.XLSXRead" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
-    <Instant epochSecond="1690991275" nanoOfSecond="880075900"/>
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692554472786" thread="main" level="INFO" loggerName="XLSX.XLSXRead" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692554472" nanoOfSecond="786787500"/>
     <Message>Students were read successfully. Size of list: 11</Message>
   </Event>
 
-  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1690991275895" thread="main" level="INFO" loggerName="XLSX.XLSXRead" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
-    <Instant epochSecond="1690991275" nanoOfSecond="895065900"/>
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692554472801" thread="main" level="INFO" loggerName="XLSX.XLSXRead" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692554472" nanoOfSecond="801260300"/>
     <Message>Universities were read successfully. Size of list: 7</Message>
   </Event>
 
-  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1690991276503" thread="main" level="INFO" loggerName="XLSX.XLSXWriter" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
-    <Instant epochSecond="1690991276" nanoOfSecond="503084800"/>
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692554473500" thread="main" level="INFO" loggerName="XLSX.XLSXWriter" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692554473" nanoOfSecond="500348900"/>
     <Message>Output file written successfully.</Message>
   </Event>
 
-  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1690991276504" thread="main" level="INFO" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
-    <Instant epochSecond="1690991276" nanoOfSecond="504083800"/>
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692554474296" thread="main" level="ERROR" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692554474" nanoOfSecond="296917300"/>
+    <Message>JAXB throws Exception.</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692554474297" thread="main" level="INFO" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692554474" nanoOfSecond="297916600"/>
+    <Message>--- Application finished. ---</Message>
+  </Event>
+</Events>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692554522479" thread="main" level="INFO" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692554522" nanoOfSecond="479609500"/>
+    <Message>--- Application started. ---</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692554523651" thread="main" level="INFO" loggerName="XLSX.XLSXRead" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692554523" nanoOfSecond="651882100"/>
+    <Message>Students were read successfully. Size of list: 11</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692554523665" thread="main" level="INFO" loggerName="XLSX.XLSXRead" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692554523" nanoOfSecond="665356500"/>
+    <Message>Universities were read successfully. Size of list: 7</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692554524338" thread="main" level="INFO" loggerName="XLSX.XLSXWriter" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692554524" nanoOfSecond="338077300"/>
+    <Message>Output file written successfully.</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692554524445" thread="main" level="ERROR" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692554524" nanoOfSecond="445873100"/>
+    <Message>JAXB throws Exception.</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692554524446" thread="main" level="INFO" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692554524" nanoOfSecond="446870500"/>
+    <Message>--- Application finished. ---</Message>
+  </Event>
+</Events>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692554578908" thread="main" level="INFO" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692554578" nanoOfSecond="908680100"/>
+    <Message>--- Application started. ---</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692554580086" thread="main" level="INFO" loggerName="XLSX.XLSXRead" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692554580" nanoOfSecond="86941600"/>
+    <Message>Students were read successfully. Size of list: 11</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692554580110" thread="main" level="INFO" loggerName="XLSX.XLSXRead" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692554580" nanoOfSecond="110896400"/>
+    <Message>Universities were read successfully. Size of list: 7</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692554580737" thread="main" level="INFO" loggerName="XLSX.XLSXWriter" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692554580" nanoOfSecond="737705200"/>
+    <Message>Output file written successfully.</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692554580928" thread="main" level="ERROR" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692554580" nanoOfSecond="928342600"/>
+    <Message>JAXB throws Exception.</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692554580929" thread="main" level="INFO" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692554580" nanoOfSecond="929340600"/>
+    <Message>--- Application finished. ---</Message>
+  </Event>
+</Events>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692554830182" thread="main" level="INFO" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692554830" nanoOfSecond="182652700"/>
+    <Message>--- Application started. ---</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692554831408" thread="main" level="INFO" loggerName="XLSX.XLSXRead" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692554831" nanoOfSecond="408322600"/>
+    <Message>Students were read successfully. Size of list: 11</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692554831444" thread="main" level="INFO" loggerName="XLSX.XLSXRead" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692554831" nanoOfSecond="444752800"/>
+    <Message>Universities were read successfully. Size of list: 7</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692554831938" thread="main" level="INFO" loggerName="XLSX.XLSXWriter" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692554831" nanoOfSecond="938316800"/>
+    <Message>Output file written successfully.</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692554832161" thread="main" level="ERROR" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692554832" nanoOfSecond="161391800"/>
+    <Message>JAXB throws Exception.</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692554832162" thread="main" level="INFO" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692554832" nanoOfSecond="162390100"/>
+    <Message>--- Application finished. ---</Message>
+  </Event>
+</Events>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692554900961" thread="main" level="INFO" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692554900" nanoOfSecond="961776500"/>
+    <Message>--- Application started. ---</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692554902231" thread="main" level="INFO" loggerName="XLSX.XLSXRead" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692554902" nanoOfSecond="231863100"/>
+    <Message>Students were read successfully. Size of list: 11</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692554902242" thread="main" level="INFO" loggerName="XLSX.XLSXRead" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692554902" nanoOfSecond="242842300"/>
+    <Message>Universities were read successfully. Size of list: 7</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692554902891" thread="main" level="INFO" loggerName="XLSX.XLSXWriter" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692554902" nanoOfSecond="891608900"/>
+    <Message>Output file written successfully.</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692554903065" thread="main" level="ERROR" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692554903" nanoOfSecond="65278800"/>
+    <Message>JAXB throws Exception.</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692554903065" thread="main" level="INFO" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692554903" nanoOfSecond="65778400"/>
+    <Message>--- Application finished. ---</Message>
+  </Event>
+</Events>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692555476418" thread="main" level="INFO" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692555476" nanoOfSecond="418422000"/>
+    <Message>--- Application started. ---</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692555477540" thread="main" level="INFO" loggerName="XLSX.XLSXRead" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692555477" nanoOfSecond="540789300"/>
+    <Message>Students were read successfully. Size of list: 11</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692555477554" thread="main" level="INFO" loggerName="XLSX.XLSXRead" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692555477" nanoOfSecond="554263400"/>
+    <Message>Universities were read successfully. Size of list: 7</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692555478175" thread="main" level="INFO" loggerName="XLSX.XLSXWriter" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692555478" nanoOfSecond="175582700"/>
+    <Message>Output file written successfully.</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692555478308" thread="main" level="INFO" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692555478" nanoOfSecond="308331200"/>
+    <Message>--- Application finished. ---</Message>
+  </Event>
+</Events>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692555648612" thread="main" level="INFO" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692555648" nanoOfSecond="612944700"/>
+    <Message>--- Application started. ---</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692555649774" thread="main" level="INFO" loggerName="XLSX.XLSXRead" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692555649" nanoOfSecond="774237600"/>
+    <Message>Students were read successfully. Size of list: 11</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692555649779" thread="main" level="INFO" loggerName="XLSX.XLSXRead" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692555649" nanoOfSecond="779727300"/>
+    <Message>Universities were read successfully. Size of list: 7</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692555650418" thread="main" level="INFO" loggerName="XLSX.XLSXWriter" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692555650" nanoOfSecond="418512900"/>
+    <Message>Output file written successfully.</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692555650608" thread="main" level="ERROR" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692555650" nanoOfSecond="608153200"/>
+    <Message>JAXB throws Exception.</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692555650609" thread="main" level="INFO" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692555650" nanoOfSecond="609151300"/>
+    <Message>--- Application finished. ---</Message>
+  </Event>
+</Events>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692555909416" thread="main" level="INFO" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692555909" nanoOfSecond="416718300"/>
+    <Message>--- Application started. ---</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692555910622" thread="main" level="INFO" loggerName="XLSX.XLSXRead" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692555910" nanoOfSecond="622927400"/>
+    <Message>Students were read successfully. Size of list: 11</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692555910636" thread="main" level="INFO" loggerName="XLSX.XLSXRead" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692555910" nanoOfSecond="636900100"/>
+    <Message>Universities were read successfully. Size of list: 7</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692555911322" thread="main" level="INFO" loggerName="XLSX.XLSXWriter" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692555911" nanoOfSecond="322597400"/>
+    <Message>Output file written successfully.</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692555911486" thread="main" level="INFO" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692555911" nanoOfSecond="486785300"/>
+    <Message>--- Application finished. ---</Message>
+  </Event>
+</Events>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692556054969" thread="main" level="INFO" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692556054" nanoOfSecond="969984600"/>
+    <Message>--- Application started. ---</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692556056355" thread="main" level="INFO" loggerName="XLSX.XLSXRead" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692556056" nanoOfSecond="355850600"/>
+    <Message>Students were read successfully. Size of list: 11</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692556056367" thread="main" level="INFO" loggerName="XLSX.XLSXRead" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692556056" nanoOfSecond="367828700"/>
+    <Message>Universities were read successfully. Size of list: 7</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692556057090" thread="main" level="INFO" loggerName="XLSX.XLSXWriter" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692556057" nanoOfSecond="90455000"/>
+    <Message>Output file written successfully.</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692556242949" thread="main" level="INFO" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692556242" nanoOfSecond="949115700"/>
+    <Message>--- Application finished. ---</Message>
+  </Event>
+</Events>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692557606799" thread="main" level="INFO" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692557606" nanoOfSecond="799999100"/>
+    <Message>--- Application started. ---</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692557608042" thread="main" level="INFO" loggerName="XLSX.XLSXRead" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692557608" nanoOfSecond="42637700"/>
+    <Message>StudentCollection were read successfully. Size of list: 11</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692557608055" thread="main" level="INFO" loggerName="XLSX.XLSXRead" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692557608" nanoOfSecond="55114600"/>
+    <Message>UniversityCollection were read successfully. Size of list: 7</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692557608575" thread="main" level="INFO" loggerName="XLSX.XLSXWriter" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692557608" nanoOfSecond="575625300"/>
+    <Message>Output file written successfully.</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692557608816" thread="main" level="INFO" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692557608" nanoOfSecond="816666500"/>
+    <Message>--- Application finished. ---</Message>
+  </Event>
+</Events>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692557752151" thread="main" level="INFO" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692557752" nanoOfSecond="151067600"/>
+    <Message>--- Application started. ---</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692557753623" thread="main" level="INFO" loggerName="XLSX.XLSXRead" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692557753" nanoOfSecond="623269900"/>
+    <Message>StudentCollection were read successfully. Size of list: 11</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692557753636" thread="main" level="INFO" loggerName="XLSX.XLSXRead" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692557753" nanoOfSecond="636744400"/>
+    <Message>UniversityCollection were read successfully. Size of list: 7</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692557754180" thread="main" level="INFO" loggerName="XLSX.XLSXWriter" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692557754" nanoOfSecond="180211200"/>
+    <Message>Output file written successfully.</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692557754381" thread="main" level="ERROR" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692557754" nanoOfSecond="381828600"/>
+    <Message>JAXB throws Exception.</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692557754454" thread="main" level="INFO" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692557754" nanoOfSecond="454190600"/>
+    <Message>--- Application finished. ---</Message>
+  </Event>
+</Events>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692557823711" thread="main" level="INFO" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692557823" nanoOfSecond="711810700"/>
+    <Message>--- Application started. ---</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692557824878" thread="main" level="INFO" loggerName="XLSX.XLSXRead" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692557824" nanoOfSecond="878094500"/>
+    <Message>StudentCollection were read successfully. Size of list: 11</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692557824889" thread="main" level="INFO" loggerName="XLSX.XLSXRead" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692557824" nanoOfSecond="889073400"/>
+    <Message>UniversityCollection were read successfully. Size of list: 7</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692557825440" thread="main" level="INFO" loggerName="XLSX.XLSXWriter" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692557825" nanoOfSecond="440525200"/>
+    <Message>Output file written successfully.</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692557825594" thread="main" level="ERROR" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692557825" nanoOfSecond="594732300"/>
+    <Message>JAXB throws Exception.</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692557825595" thread="main" level="INFO" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692557825" nanoOfSecond="595730600"/>
+    <Message>--- Application finished. ---</Message>
+  </Event>
+</Events>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692558059435" thread="main" level="INFO" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692558059" nanoOfSecond="435044600"/>
+    <Message>--- Application started. ---</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692558060626" thread="main" level="INFO" loggerName="XLSX.XLSXRead" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692558060" nanoOfSecond="626281000"/>
+    <Message>StudentCollection were read successfully. Size of list: 11</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692558060640" thread="main" level="INFO" loggerName="XLSX.XLSXRead" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692558060" nanoOfSecond="640754100"/>
+    <Message>UniversityCollection were read successfully. Size of list: 7</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692558061178" thread="main" level="INFO" loggerName="XLSX.XLSXWriter" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692558061" nanoOfSecond="178730600"/>
+    <Message>Output file written successfully.</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692558061380" thread="main" level="ERROR" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692558061" nanoOfSecond="380847200"/>
+    <Message>JAXB throws Exception.</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692558061407" thread="main" level="INFO" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692558061" nanoOfSecond="407296400"/>
+    <Message>--- Application finished. ---</Message>
+  </Event>
+</Events>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692558080678" thread="main" level="INFO" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692558080" nanoOfSecond="678264700"/>
+    <Message>--- Application started. ---</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692558082143" thread="main" level="INFO" loggerName="XLSX.XLSXRead" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692558082" nanoOfSecond="143979500"/>
+    <Message>StudentCollection were read successfully. Size of list: 11</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692558082158" thread="main" level="INFO" loggerName="XLSX.XLSXRead" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692558082" nanoOfSecond="158451500"/>
+    <Message>UniversityCollection were read successfully. Size of list: 7</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692558082977" thread="main" level="INFO" loggerName="XLSX.XLSXWriter" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692558082" nanoOfSecond="977894400"/>
+    <Message>Output file written successfully.</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692558116611" thread="main" level="ERROR" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692558116" nanoOfSecond="611802000"/>
+    <Message>JAXB throws Exception.</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692558116613" thread="main" level="INFO" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692558116" nanoOfSecond="613797600"/>
+    <Message>--- Application finished. ---</Message>
+  </Event>
+</Events>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692558561679" thread="main" level="INFO" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692558561" nanoOfSecond="679105900"/>
+    <Message>--- Application started. ---</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692558562884" thread="main" level="INFO" loggerName="XLSX.XLSXRead" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692558562" nanoOfSecond="884814300"/>
+    <Message>StudentCollection were read successfully. Size of list: 11</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692558562899" thread="main" level="INFO" loggerName="XLSX.XLSXRead" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692558562" nanoOfSecond="899287100"/>
+    <Message>UniversityCollection were read successfully. Size of list: 7</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692558563456" thread="main" level="INFO" loggerName="XLSX.XLSXWriter" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692558563" nanoOfSecond="456727300"/>
+    <Message>Output file written successfully.</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692558563690" thread="main" level="ERROR" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692558563" nanoOfSecond="690284100"/>
+    <Message>JAXB throws Exception.</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692558563691" thread="main" level="INFO" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692558563" nanoOfSecond="691281900"/>
+    <Message>--- Application finished. ---</Message>
+  </Event>
+</Events>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692558680802" thread="main" level="INFO" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692558680" nanoOfSecond="802762100"/>
+    <Message>--- Application started. ---</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692558682048" thread="main" level="INFO" loggerName="XLSX.XLSXRead" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692558682" nanoOfSecond="48894400"/>
+    <Message>StudentCollection were read successfully. Size of list: 11</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692558682061" thread="main" level="INFO" loggerName="XLSX.XLSXRead" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692558682" nanoOfSecond="61370100"/>
+    <Message>UniversityCollection were read successfully. Size of list: 7</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692558682612" thread="main" level="INFO" loggerName="XLSX.XLSXWriter" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692558682" nanoOfSecond="612322700"/>
+    <Message>Output file written successfully.</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692558682832" thread="main" level="ERROR" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692558682" nanoOfSecond="832405200"/>
+    <Message>JAXB throws Exception.</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692558682833" thread="main" level="INFO" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692558682" nanoOfSecond="833403600"/>
+    <Message>--- Application finished. ---</Message>
+  </Event>
+</Events>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692558941459" thread="main" level="INFO" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692558941" nanoOfSecond="459950700"/>
+    <Message>--- Application started. ---</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692558942705" thread="main" level="INFO" loggerName="XLSX.XLSXRead" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692558942" nanoOfSecond="705583800"/>
+    <Message>StudentCollection were read successfully. Size of list: 11</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692558942719" thread="main" level="INFO" loggerName="XLSX.XLSXRead" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692558942" nanoOfSecond="719557800"/>
+    <Message>UniversityCollection were read successfully. Size of list: 7</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692558943263" thread="main" level="INFO" loggerName="XLSX.XLSXWriter" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692558943" nanoOfSecond="263024500"/>
+    <Message>Output file written successfully.</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692558943482" thread="main" level="ERROR" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692558943" nanoOfSecond="482607000"/>
+    <Message>JAXB throws Exception.</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692558943483" thread="main" level="INFO" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692558943" nanoOfSecond="483106000"/>
+    <Message>--- Application finished. ---</Message>
+  </Event>
+</Events>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692559466516" thread="main" level="INFO" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692559466" nanoOfSecond="516486000"/>
+    <Message>--- Application started. ---</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692559467778" thread="main" level="INFO" loggerName="XLSX.XLSXRead" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692559467" nanoOfSecond="778587100"/>
+    <Message>StudentCollection were read successfully. Size of list: 11</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692559467785" thread="main" level="INFO" loggerName="XLSX.XLSXRead" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692559467" nanoOfSecond="785573900"/>
+    <Message>UniversityCollection were read successfully. Size of list: 7</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692559468342" thread="main" level="INFO" loggerName="XLSX.XLSXWriter" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692559468" nanoOfSecond="342214900"/>
+    <Message>Output file written successfully.</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692559468531" thread="main" level="ERROR" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692559468" nanoOfSecond="531157200"/>
+    <Message>JAXB throws Exception.</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692559468532" thread="main" level="INFO" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692559468" nanoOfSecond="532155700"/>
+    <Message>--- Application finished. ---</Message>
+  </Event>
+</Events>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692559540202" thread="main" level="INFO" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692559540" nanoOfSecond="202325800"/>
+    <Message>--- Application started. ---</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692559541403" thread="main" level="INFO" loggerName="XLSX.XLSXRead" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692559541" nanoOfSecond="403543000"/>
+    <Message>StudentCollection were read successfully. Size of list: 11</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692559541416" thread="main" level="INFO" loggerName="XLSX.XLSXRead" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692559541" nanoOfSecond="416519600"/>
+    <Message>UniversityCollection were read successfully. Size of list: 7</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692559542059" thread="main" level="INFO" loggerName="XLSX.XLSXWriter" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692559542" nanoOfSecond="59324900"/>
+    <Message>Output file written successfully.</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692559542213" thread="main" level="ERROR" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692559542" nanoOfSecond="213504000"/>
+    <Message>JAXB throws Exception.</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692559542214" thread="main" level="INFO" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692559542" nanoOfSecond="214502300"/>
+    <Message>--- Application finished. ---</Message>
+  </Event>
+</Events>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692559642315" thread="main" level="INFO" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692559642" nanoOfSecond="315098900"/>
+    <Message>--- Application started. ---</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692559643630" thread="main" level="INFO" loggerName="XLSX.XLSXRead" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692559643" nanoOfSecond="630100300"/>
+    <Message>StudentCollection were read successfully. Size of list: 11</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692559643647" thread="main" level="INFO" loggerName="XLSX.XLSXRead" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692559643" nanoOfSecond="647567200"/>
+    <Message>UniversityCollection were read successfully. Size of list: 7</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692559644282" thread="main" level="INFO" loggerName="XLSX.XLSXWriter" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692559644" nanoOfSecond="282360900"/>
+    <Message>Output file written successfully.</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692559644513" thread="main" level="ERROR" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692559644" nanoOfSecond="513921200"/>
+    <Message>JAXB throws Exception.</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692559644515" thread="main" level="INFO" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692559644" nanoOfSecond="515417900"/>
+    <Message>--- Application finished. ---</Message>
+  </Event>
+</Events>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692559688951" thread="main" level="INFO" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692559688" nanoOfSecond="951265600"/>
+    <Message>--- Application started. ---</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692559690118" thread="main" level="INFO" loggerName="XLSX.XLSXRead" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692559690" nanoOfSecond="118048700"/>
+    <Message>StudentCollection were read successfully. Size of list: 11</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692559690153" thread="main" level="INFO" loggerName="XLSX.XLSXRead" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692559690" nanoOfSecond="153480700"/>
+    <Message>UniversityCollection were read successfully. Size of list: 7</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692559690750" thread="main" level="INFO" loggerName="XLSX.XLSXWriter" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692559690" nanoOfSecond="750845700"/>
+    <Message>Output file written successfully.</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692559690949" thread="main" level="ERROR" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692559690" nanoOfSecond="949468100"/>
+    <Message>JAXB throws Exception.</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692559690950" thread="main" level="INFO" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692559690" nanoOfSecond="950466600"/>
+    <Message>--- Application finished. ---</Message>
+  </Event>
+</Events>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692559742159" thread="main" level="INFO" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692559742" nanoOfSecond="159082700"/>
+    <Message>--- Application started. ---</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692559743366" thread="main" level="INFO" loggerName="XLSX.XLSXRead" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692559743" nanoOfSecond="366288300"/>
+    <Message>StudentCollection were read successfully. Size of list: 11</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692559743380" thread="main" level="INFO" loggerName="XLSX.XLSXRead" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692559743" nanoOfSecond="380261900"/>
+    <Message>UniversityCollection were read successfully. Size of list: 7</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692559743949" thread="main" level="INFO" loggerName="XLSX.XLSXWriter" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692559743" nanoOfSecond="949180800"/>
+    <Message>Output file written successfully.</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692559744169" thread="main" level="ERROR" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692559744" nanoOfSecond="169265800"/>
+    <Message>JAXB throws Exception.</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692559744170" thread="main" level="INFO" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692559744" nanoOfSecond="170260900"/>
+    <Message>--- Application finished. ---</Message>
+  </Event>
+</Events>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692559848144" thread="main" level="INFO" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692559848" nanoOfSecond="144061300"/>
+    <Message>--- Application started. ---</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692559849328" thread="main" level="INFO" loggerName="XLSX.XLSXRead" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692559849" nanoOfSecond="328310800"/>
+    <Message>StudentCollection were read successfully. Size of list: 11</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692559849334" thread="main" level="INFO" loggerName="XLSX.XLSXRead" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692559849" nanoOfSecond="334299400"/>
+    <Message>UniversityCollection were read successfully. Size of list: 7</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692559849948" thread="main" level="INFO" loggerName="XLSX.XLSXWriter" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692559849" nanoOfSecond="948632900"/>
+    <Message>Output file written successfully.</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692559850170" thread="main" level="ERROR" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692559850" nanoOfSecond="170710700"/>
+    <Message>JAXB throws Exception.</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692559850172" thread="main" level="INFO" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692559850" nanoOfSecond="172207100"/>
+    <Message>--- Application finished. ---</Message>
+  </Event>
+</Events>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692560128314" thread="main" level="INFO" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692560128" nanoOfSecond="314059000"/>
+    <Message>--- Application started. ---</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692560129603" thread="main" level="INFO" loggerName="XLSX.XLSXRead" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692560129" nanoOfSecond="603607400"/>
+    <Message>StudentCollection were read successfully. Size of list: 11</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692560129614" thread="main" level="INFO" loggerName="XLSX.XLSXRead" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692560129" nanoOfSecond="614586600"/>
+    <Message>UniversityCollection were read successfully. Size of list: 7</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692560130252" thread="main" level="INFO" loggerName="XLSX.XLSXWriter" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692560130" nanoOfSecond="252873400"/>
+    <Message>Output file written successfully.</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692560130443" thread="main" level="ERROR" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692560130" nanoOfSecond="443511200"/>
+    <Message>JAXB throws Exception.</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692560130444" thread="main" level="INFO" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692560130" nanoOfSecond="444509700"/>
+    <Message>--- Application finished. ---</Message>
+  </Event>
+</Events>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692560493292" thread="main" level="INFO" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692560493" nanoOfSecond="292448000"/>
+    <Message>--- Application started. ---</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692560494465" thread="main" level="INFO" loggerName="XLSX.XLSXRead" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692560494" nanoOfSecond="465718300"/>
+    <Message>StudentCollection were read successfully. Size of list: 11</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692560494475" thread="main" level="INFO" loggerName="XLSX.XLSXRead" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692560494" nanoOfSecond="475698700"/>
+    <Message>UniversityCollection were read successfully. Size of list: 7</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692560495021" thread="main" level="INFO" loggerName="XLSX.XLSXWriter" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692560495" nanoOfSecond="21661700"/>
+    <Message>Output file written successfully.</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692560495252" thread="main" level="ERROR" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692560495" nanoOfSecond="252223900"/>
+    <Message>JAXB throws Exception.</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692560495252" thread="main" level="INFO" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692560495" nanoOfSecond="252722600"/>
+    <Message>--- Application finished. ---</Message>
+  </Event>
+</Events>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692560798795" thread="main" level="INFO" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692560798" nanoOfSecond="795535900"/>
+    <Message>--- Application started. ---</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692560799960" thread="main" level="INFO" loggerName="XLSX.XLSXRead" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692560799" nanoOfSecond="960322600"/>
+    <Message>StudentCollection were read successfully. Size of list: 11</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692560799973" thread="main" level="INFO" loggerName="XLSX.XLSXRead" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692560799" nanoOfSecond="973797200"/>
+    <Message>UniversityCollection were read successfully. Size of list: 7</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692560800622" thread="main" level="INFO" loggerName="XLSX.XLSXWriter" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692560800" nanoOfSecond="622563400"/>
+    <Message>Output file written successfully.</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692560800847" thread="main" level="ERROR" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692560800" nanoOfSecond="847635900"/>
+    <Message>JAXB throws Exception.</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692560800848" thread="main" level="INFO" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692560800" nanoOfSecond="848135500"/>
+    <Message>--- Application finished. ---</Message>
+  </Event>
+</Events>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692561585883" thread="main" level="INFO" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692561585" nanoOfSecond="883032400"/>
+    <Message>--- Application started. ---</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692561587092" thread="main" level="INFO" loggerName="XLSX.XLSXRead" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692561587" nanoOfSecond="92234200"/>
+    <Message>StudentCollection were read successfully. Size of list: 11</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692561587105" thread="main" level="INFO" loggerName="XLSX.XLSXRead" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692561587" nanoOfSecond="105708200"/>
+    <Message>UniversityCollection were read successfully. Size of list: 7</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692561587705" thread="main" level="INFO" loggerName="XLSX.XLSXWriter" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692561587" nanoOfSecond="705070300"/>
+    <Message>Output file written successfully.</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692561587937" thread="main" level="ERROR" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692561587" nanoOfSecond="937627300"/>
+    <Message>JAXB throws Exception.</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692561587938" thread="main" level="INFO" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692561587" nanoOfSecond="938625400"/>
+    <Message>--- Application finished. ---</Message>
+  </Event>
+</Events>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692562051413" thread="main" level="INFO" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692562051" nanoOfSecond="413323200"/>
+    <Message>--- Application started. ---</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692562052662" thread="main" level="INFO" loggerName="XLSX.XLSXRead" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692562052" nanoOfSecond="662448900"/>
+    <Message>StudentCollection were read successfully. Size of list: 11</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692562052676" thread="main" level="INFO" loggerName="XLSX.XLSXRead" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692562052" nanoOfSecond="676921200"/>
+    <Message>UniversityCollection were read successfully. Size of list: 7</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692562053265" thread="main" level="INFO" loggerName="XLSX.XLSXWriter" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692562053" nanoOfSecond="265801600"/>
+    <Message>Output file written successfully.</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692562053289" thread="main" level="ERROR" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692562053" nanoOfSecond="289257300"/>
+    <Message>JAXB throws Exception.</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692562053290" thread="main" level="INFO" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692562053" nanoOfSecond="290255500"/>
+    <Message>--- Application finished. ---</Message>
+  </Event>
+</Events>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692562292143" thread="main" level="INFO" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692562292" nanoOfSecond="143235300"/>
+    <Message>--- Application started. ---</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692562293766" thread="main" level="INFO" loggerName="XLSX.XLSXRead" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692562293" nanoOfSecond="766649600"/>
+    <Message>StudentCollection were read successfully. Size of list: 11</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692562293775" thread="main" level="INFO" loggerName="XLSX.XLSXRead" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692562293" nanoOfSecond="775632400"/>
+    <Message>UniversityCollection were read successfully. Size of list: 7</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692562294616" thread="main" level="INFO" loggerName="XLSX.XLSXWriter" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692562294" nanoOfSecond="616036200"/>
+    <Message>Output file written successfully.</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692562294922" thread="main" level="ERROR" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692562294" nanoOfSecond="922952400"/>
+    <Message>JAXB throws Exception.</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692562294923" thread="main" level="INFO" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692562294" nanoOfSecond="923950400"/>
+    <Message>--- Application finished. ---</Message>
+  </Event>
+</Events>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692562688107" thread="main" level="INFO" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692562688" nanoOfSecond="107736800"/>
+    <Message>--- Application started. ---</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692562689404" thread="main" level="INFO" loggerName="XLSX.XLSXRead" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692562689" nanoOfSecond="404272600"/>
+    <Message>StudentCollection were read successfully. Size of list: 11</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692562689453" thread="main" level="INFO" loggerName="XLSX.XLSXRead" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692562689" nanoOfSecond="453678900"/>
+    <Message>UniversityCollection were read successfully. Size of list: 7</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692562690171" thread="main" level="INFO" loggerName="XLSX.XLSXWriter" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692562690" nanoOfSecond="171813200"/>
+    <Message>Output file written successfully.</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692562690366" thread="main" level="ERROR" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692562690" nanoOfSecond="366943400"/>
+    <Message>JAXB throws Exception.</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692562690367" thread="main" level="INFO" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692562690" nanoOfSecond="367941200"/>
+    <Message>--- Application finished. ---</Message>
+  </Event>
+</Events>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692562755544" thread="main" level="INFO" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692562755" nanoOfSecond="544642800"/>
+    <Message>--- Application started. ---</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692562756828" thread="main" level="INFO" loggerName="XLSX.XLSXRead" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692562756" nanoOfSecond="828203300"/>
+    <Message>StudentCollection were read successfully. Size of list: 11</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692562756836" thread="main" level="INFO" loggerName="XLSX.XLSXRead" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692562756" nanoOfSecond="836187900"/>
+    <Message>UniversityCollection were read successfully. Size of list: 7</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692562757480" thread="main" level="INFO" loggerName="XLSX.XLSXWriter" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692562757" nanoOfSecond="480961600"/>
+    <Message>Output file written successfully.</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692562757711" thread="main" level="ERROR" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692562757" nanoOfSecond="711524300"/>
+    <Message>JAXB throws Exception.</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692562757712" thread="main" level="INFO" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692562757" nanoOfSecond="712522800"/>
+    <Message>--- Application finished. ---</Message>
+  </Event>
+</Events>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692562813567" thread="main" level="INFO" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692562813" nanoOfSecond="567990500"/>
+    <Message>--- Application started. ---</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692562814753" thread="main" level="INFO" loggerName="XLSX.XLSXRead" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692562814" nanoOfSecond="753737100"/>
+    <Message>StudentCollection were read successfully. Size of list: 11</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692562814767" thread="main" level="INFO" loggerName="XLSX.XLSXRead" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692562814" nanoOfSecond="767711000"/>
+    <Message>UniversityCollection were read successfully. Size of list: 7</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692562815338" thread="main" level="INFO" loggerName="XLSX.XLSXWriter" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692562815" nanoOfSecond="338126800"/>
+    <Message>Output file written successfully.</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692562815582" thread="main" level="ERROR" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692562815" nanoOfSecond="582662000"/>
+    <Message>JAXB throws Exception.</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692562815584" thread="main" level="INFO" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692562815" nanoOfSecond="584159100"/>
+    <Message>--- Application finished. ---</Message>
+  </Event>
+</Events>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692563009196" thread="main" level="INFO" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692563009" nanoOfSecond="196207600"/>
+    <Message>--- Application started. ---</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692563010440" thread="main" level="INFO" loggerName="XLSX.XLSXRead" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692563010" nanoOfSecond="440343500"/>
+    <Message>StudentCollection were read successfully. Size of list: 11</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692563010455" thread="main" level="INFO" loggerName="XLSX.XLSXRead" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692563010" nanoOfSecond="455315200"/>
+    <Message>UniversityCollection were read successfully. Size of list: 7</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692563011085" thread="main" level="INFO" loggerName="XLSX.XLSXWriter" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692563011" nanoOfSecond="85118100"/>
+    <Message>Output file written successfully.</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692563011265" thread="main" level="ERROR" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692563011" nanoOfSecond="265274900"/>
+    <Message>JAXB throws Exception.</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692563011266" thread="main" level="INFO" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692563011" nanoOfSecond="266772800"/>
+    <Message>--- Application finished. ---</Message>
+  </Event>
+</Events>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692563078092" thread="main" level="INFO" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692563078" nanoOfSecond="92864100"/>
+    <Message>--- Application started. ---</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692563079225" thread="main" level="INFO" loggerName="XLSX.XLSXRead" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692563079" nanoOfSecond="225711100"/>
+    <Message>StudentCollection were read successfully. Size of list: 11</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692563079239" thread="main" level="INFO" loggerName="XLSX.XLSXRead" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692563079" nanoOfSecond="239185300"/>
+    <Message>UniversityCollection were read successfully. Size of list: 7</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692563079833" thread="main" level="INFO" loggerName="XLSX.XLSXWriter" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692563079" nanoOfSecond="833555500"/>
+    <Message>Output file written successfully.</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692563080099" thread="main" level="ERROR" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692563080" nanoOfSecond="99550700"/>
+    <Message>JAXB throws Exception.</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692563080101" thread="main" level="INFO" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692563080" nanoOfSecond="101047500"/>
+    <Message>--- Application finished. ---</Message>
+  </Event>
+</Events>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692563540831" thread="main" level="INFO" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692563540" nanoOfSecond="831125500"/>
+    <Message>--- Application started. ---</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692563542071" thread="main" level="INFO" loggerName="XLSX.XLSXRead" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692563542" nanoOfSecond="71268300"/>
+    <Message>StudentCollection were read successfully. Size of list: 11</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692563542084" thread="main" level="INFO" loggerName="XLSX.XLSXRead" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692563542" nanoOfSecond="84743300"/>
+    <Message>UniversityCollection were read successfully. Size of list: 7</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692563542706" thread="main" level="INFO" loggerName="XLSX.XLSXWriter" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692563542" nanoOfSecond="706561200"/>
+    <Message>Output file written successfully.</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692563542929" thread="main" level="ERROR" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692563542" nanoOfSecond="929138500"/>
+    <Message>JAXB throws Exception.</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692563542930" thread="main" level="INFO" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692563542" nanoOfSecond="930137000"/>
+    <Message>--- Application finished. ---</Message>
+  </Event>
+</Events>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692563846544" thread="main" level="INFO" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692563846" nanoOfSecond="544615200"/>
+    <Message>--- Application started. ---</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692563847692" thread="main" level="INFO" loggerName="XLSX.XLSXRead" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692563847" nanoOfSecond="692933700"/>
+    <Message>StudentCollection were read successfully. Size of list: 11</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692563847706" thread="main" level="INFO" loggerName="XLSX.XLSXRead" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692563847" nanoOfSecond="706906200"/>
+    <Message>UniversityCollection were read successfully. Size of list: 7</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692563848295" thread="main" level="INFO" loggerName="XLSX.XLSXWriter" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692563848" nanoOfSecond="295287700"/>
+    <Message>Output file written successfully.</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692563848511" thread="main" level="ERROR" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692563848" nanoOfSecond="511877100"/>
+    <Message>JAXB throws Exception.</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692563848512" thread="main" level="INFO" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692563848" nanoOfSecond="512375800"/>
+    <Message>--- Application finished. ---</Message>
+  </Event>
+</Events>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692564354720" thread="main" level="INFO" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692564354" nanoOfSecond="720564000"/>
+    <Message>--- Application started. ---</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692564355986" thread="main" level="INFO" loggerName="XLSX.XLSXRead" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692564355" nanoOfSecond="986158600"/>
+    <Message>StudentCollection were read successfully. Size of list: 11</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692564356000" thread="main" level="INFO" loggerName="XLSX.XLSXRead" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692564356" nanoOfSecond="631300"/>
+    <Message>UniversityCollection were read successfully. Size of list: 7</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692564356557" thread="main" level="INFO" loggerName="XLSX.XLSXWriter" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692564356" nanoOfSecond="557073300"/>
+    <Message>Output file written successfully.</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692564356797" thread="main" level="ERROR" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692564356" nanoOfSecond="797616200"/>
+    <Message>JAXB throws Exception.</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692564356798" thread="main" level="INFO" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692564356" nanoOfSecond="798614500"/>
+    <Message>--- Application finished. ---</Message>
+  </Event>
+</Events>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692564631309" thread="main" level="INFO" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692564631" nanoOfSecond="309941000"/>
+    <Message>--- Application started. ---</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692564632605" thread="main" level="INFO" loggerName="XLSX.XLSXRead" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692564632" nanoOfSecond="605479100"/>
+    <Message>StudentCollection were read successfully. Size of list: 11</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692564632615" thread="main" level="INFO" loggerName="XLSX.XLSXRead" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692564632" nanoOfSecond="615460100"/>
+    <Message>UniversityCollection were read successfully. Size of list: 7</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692564633126" thread="main" level="INFO" loggerName="XLSX.XLSXWriter" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692564633" nanoOfSecond="126488600"/>
+    <Message>Output file written successfully.</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692564633451" thread="main" level="ERROR" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692564633" nanoOfSecond="451371300"/>
+    <Message>JAXB throws Exception.</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692564633452" thread="main" level="INFO" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692564633" nanoOfSecond="452369600"/>
+    <Message>--- Application finished. ---</Message>
+  </Event>
+</Events>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692565263995" thread="main" level="INFO" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692565263" nanoOfSecond="995921800"/>
+    <Message>--- Application started. ---</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692565265189" thread="main" level="INFO" loggerName="XLSX.XLSXRead" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692565265" nanoOfSecond="189653300"/>
+    <Message>StudentCollection were read successfully. Size of list: 11</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692565265204" thread="main" level="INFO" loggerName="XLSX.XLSXRead" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692565265" nanoOfSecond="204624900"/>
+    <Message>UniversityCollection were read successfully. Size of list: 7</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692565265770" thread="main" level="INFO" loggerName="XLSX.XLSXWriter" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692565265" nanoOfSecond="770050300"/>
+    <Message>Output file written successfully.</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692565266049" thread="main" level="ERROR" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692565266" nanoOfSecond="49518800"/>
+    <Message>JAXB throws Exception.</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692565266050" thread="main" level="INFO" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692565266" nanoOfSecond="50517200"/>
+    <Message>--- Application finished. ---</Message>
+  </Event>
+</Events>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692565314810" thread="main" level="INFO" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692565314" nanoOfSecond="810476100"/>
+    <Message>--- Application started. ---</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692565315973" thread="main" level="INFO" loggerName="XLSX.XLSXRead" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692565315" nanoOfSecond="973765500"/>
+    <Message>StudentCollection were read successfully. Size of list: 11</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692565315984" thread="main" level="INFO" loggerName="XLSX.XLSXRead" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692565315" nanoOfSecond="984744500"/>
+    <Message>UniversityCollection were read successfully. Size of list: 7</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692565316562" thread="main" level="INFO" loggerName="XLSX.XLSXWriter" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692565316" nanoOfSecond="562147200"/>
+    <Message>Output file written successfully.</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692565316834" thread="main" level="ERROR" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692565316" nanoOfSecond="834129900"/>
+    <Message>JAXB throws Exception.</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692565316834" thread="main" level="INFO" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692565316" nanoOfSecond="834629100"/>
+    <Message>--- Application finished. ---</Message>
+  </Event>
+</Events>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692565357348" thread="main" level="INFO" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692565357" nanoOfSecond="348266700"/>
+    <Message>--- Application started. ---</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692565358555" thread="main" level="INFO" loggerName="XLSX.XLSXRead" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692565358" nanoOfSecond="555971600"/>
+    <Message>StudentCollection were read successfully. Size of list: 11</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692565358569" thread="main" level="INFO" loggerName="XLSX.XLSXRead" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692565358" nanoOfSecond="569445900"/>
+    <Message>UniversityCollection were read successfully. Size of list: 7</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692565359126" thread="main" level="INFO" loggerName="XLSX.XLSXWriter" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692565359" nanoOfSecond="126886700"/>
+    <Message>Output file written successfully.</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692565359348" thread="main" level="ERROR" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692565359" nanoOfSecond="348965100"/>
+    <Message>JAXB throws Exception.</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692565359349" thread="main" level="INFO" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692565359" nanoOfSecond="349962700"/>
+    <Message>--- Application finished. ---</Message>
+  </Event>
+</Events>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692565424553" thread="main" level="INFO" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692565424" nanoOfSecond="553344800"/>
+    <Message>--- Application started. ---</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692565425824" thread="main" level="INFO" loggerName="XLSX.XLSXRead" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692565425" nanoOfSecond="824429300"/>
+    <Message>StudentCollection were read successfully. Size of list: 11</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692565425830" thread="main" level="INFO" loggerName="XLSX.XLSXRead" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692565425" nanoOfSecond="830417700"/>
+    <Message>UniversityCollection were read successfully. Size of list: 7</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692565426454" thread="main" level="INFO" loggerName="XLSX.XLSXWriter" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692565426" nanoOfSecond="454731200"/>
+    <Message>Output file written successfully.</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692565426701" thread="main" level="ERROR" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692565426" nanoOfSecond="701763200"/>
+    <Message>JAXB throws Exception.</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692565426702" thread="main" level="INFO" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692565426" nanoOfSecond="702260900"/>
+    <Message>--- Application finished. ---</Message>
+  </Event>
+</Events>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692565498579" thread="main" level="INFO" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692565498" nanoOfSecond="579213400"/>
+    <Message>--- Application started. ---</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692565499922" thread="main" level="INFO" loggerName="XLSX.XLSXRead" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692565499" nanoOfSecond="922659300"/>
+    <Message>StudentCollection were read successfully. Size of list: 11</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692565499929" thread="main" level="INFO" loggerName="XLSX.XLSXRead" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692565499" nanoOfSecond="929646400"/>
+    <Message>UniversityCollection were read successfully. Size of list: 7</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692565500615" thread="main" level="INFO" loggerName="XLSX.XLSXWriter" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692565500" nanoOfSecond="615842200"/>
+    <Message>Output file written successfully.</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692565500874" thread="main" level="ERROR" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692565500" nanoOfSecond="874849400"/>
+    <Message>JAXB throws Exception.</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692565500875" thread="main" level="INFO" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692565500" nanoOfSecond="875847300"/>
+    <Message>--- Application finished. ---</Message>
+  </Event>
+</Events>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692565579104" thread="main" level="INFO" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692565579" nanoOfSecond="104017000"/>
+    <Message>--- Application started. ---</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692565580314" thread="main" level="INFO" loggerName="XLSX.XLSXRead" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692565580" nanoOfSecond="314715400"/>
+    <Message>StudentCollection were read successfully. Size of list: 11</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692565580328" thread="main" level="INFO" loggerName="XLSX.XLSXRead" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692565580" nanoOfSecond="328688600"/>
+    <Message>UniversityCollection were read successfully. Size of list: 7</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692565580902" thread="main" level="INFO" loggerName="XLSX.XLSXWriter" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692565580" nanoOfSecond="902598300"/>
+    <Message>Output file written successfully.</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692565581178" thread="main" level="ERROR" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692565581" nanoOfSecond="178573300"/>
+    <Message>JAXB throws Exception.</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692565581179" thread="main" level="INFO" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692565581" nanoOfSecond="179571600"/>
+    <Message>--- Application finished. ---</Message>
+  </Event>
+</Events>
+</Events>
+</Events>
+</Events>
+</Events>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692571804693" thread="main" level="INFO" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692571804" nanoOfSecond="693648600"/>
+    <Message>--- Application started. ---</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692571806652" thread="main" level="INFO" loggerName="XLSX.XLSXRead" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692571806" nanoOfSecond="652925300"/>
+    <Message>StudentCollection were read successfully. Size of list: 11</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692571806671" thread="main" level="INFO" loggerName="XLSX.XLSXRead" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692571806" nanoOfSecond="671389400"/>
+    <Message>UniversityCollection were read successfully. Size of list: 7</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692571806785" thread="main" level="INFO" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692571806" nanoOfSecond="785671800"/>
+    <Message>--- Application finished. ---</Message>
+  </Event>
+</Events>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692571881985" thread="main" level="INFO" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692571881" nanoOfSecond="985884400"/>
+    <Message>--- Application started. ---</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692571883345" thread="main" level="INFO" loggerName="XLSX.XLSXRead" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692571883" nanoOfSecond="345301300"/>
+    <Message>StudentCollection were read successfully. Size of list: 11</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692571883359" thread="main" level="INFO" loggerName="XLSX.XLSXRead" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692571883" nanoOfSecond="359774000"/>
+    <Message>UniversityCollection were read successfully. Size of list: 7</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692571883409" thread="main" level="INFO" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692571883" nanoOfSecond="409678200"/>
+    <Message>--- Application finished. ---</Message>
+  </Event>
+</Events>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692572083952" thread="main" level="INFO" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692572083" nanoOfSecond="952877600"/>
+    <Message>--- Application started. ---</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692572085624" thread="main" level="INFO" loggerName="XLSX.XLSXRead" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692572085" nanoOfSecond="624700300"/>
+    <Message>StudentCollection were read successfully. Size of list: 11</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692572085637" thread="main" level="INFO" loggerName="XLSX.XLSXRead" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692572085" nanoOfSecond="637675800"/>
+    <Message>UniversityCollection were read successfully. Size of list: 7</Message>
+  </Event>
+</Events>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692572970048" thread="main" level="INFO" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692572970" nanoOfSecond="48436500"/>
+    <Message>--- Application started. ---</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692572971449" thread="main" level="INFO" loggerName="XLSX.XLSXRead" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692572971" nanoOfSecond="449274700"/>
+    <Message>StudentCollection were read successfully. Size of list: 11</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692572971464" thread="main" level="INFO" loggerName="XLSX.XLSXRead" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692572971" nanoOfSecond="464246700"/>
+    <Message>UniversityCollection were read successfully. Size of list: 7</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692572971517" thread="main" level="ERROR" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692572971" nanoOfSecond="517644000"/>
+    <Message>JAXB throws Exception.</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692572971518" thread="main" level="INFO" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692572971" nanoOfSecond="518642100"/>
+    <Message>--- Application finished. ---</Message>
+  </Event>
+</Events>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692573023065" thread="main" level="INFO" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692573023" nanoOfSecond="65625300"/>
+    <Message>--- Application started. ---</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692573024492" thread="main" level="INFO" loggerName="XLSX.XLSXRead" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692573024" nanoOfSecond="492413500"/>
+    <Message>StudentCollection were read successfully. Size of list: 11</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692573024505" thread="main" level="INFO" loggerName="XLSX.XLSXRead" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692573024" nanoOfSecond="505388800"/>
+    <Message>UniversityCollection were read successfully. Size of list: 7</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692573024550" thread="main" level="ERROR" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692573024" nanoOfSecond="550303000"/>
+    <Message>JAXB throws Exception.</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692573024550" thread="main" level="INFO" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692573024" nanoOfSecond="550802800"/>
+    <Message>--- Application finished. ---</Message>
+  </Event>
+</Events>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692573146405" thread="main" level="INFO" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692573146" nanoOfSecond="405621000"/>
+    <Message>--- Application started. ---</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692573148224" thread="main" level="INFO" loggerName="XLSX.XLSXRead" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692573148" nanoOfSecond="224664100"/>
+    <Message>StudentCollection were read successfully. Size of list: 11</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692573148237" thread="main" level="INFO" loggerName="XLSX.XLSXRead" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692573148" nanoOfSecond="237639000"/>
+    <Message>UniversityCollection were read successfully. Size of list: 7</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692573148310" thread="main" level="ERROR" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692573148" nanoOfSecond="310001500"/>
+    <Message>JAXB throws Exception.</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692573148310" thread="main" level="INFO" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692573148" nanoOfSecond="310999800"/>
+    <Message>--- Application finished. ---</Message>
+  </Event>
+</Events>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692573387974" thread="main" level="INFO" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692573387" nanoOfSecond="974689800"/>
+    <Message>--- Application started. ---</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692573389357" thread="main" level="INFO" loggerName="XLSX.XLSXRead" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692573389" nanoOfSecond="357561600"/>
+    <Message>StudentCollection were read successfully. Size of list: 11</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692573389364" thread="main" level="INFO" loggerName="XLSX.XLSXRead" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692573389" nanoOfSecond="364548500"/>
+    <Message>UniversityCollection were read successfully. Size of list: 7</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692573389419" thread="main" level="ERROR" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692573389" nanoOfSecond="419443800"/>
+    <Message>JAXB throws Exception.</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692573389419" thread="main" level="INFO" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692573389" nanoOfSecond="419943100"/>
+    <Message>--- Application finished. ---</Message>
+  </Event>
+</Events>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692573458606" thread="main" level="INFO" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692573458" nanoOfSecond="606448000"/>
+    <Message>--- Application started. ---</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692573460023" thread="main" level="INFO" loggerName="XLSX.XLSXRead" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692573460" nanoOfSecond="23754700"/>
+    <Message>StudentCollection were read successfully. Size of list: 11</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692573460037" thread="main" level="INFO" loggerName="XLSX.XLSXRead" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692573460" nanoOfSecond="37228900"/>
+    <Message>UniversityCollection were read successfully. Size of list: 7</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692573460121" thread="main" level="ERROR" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692573460" nanoOfSecond="121069200"/>
+    <Message>JAXB throws Exception.</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692573460121" thread="main" level="INFO" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692573460" nanoOfSecond="121568700"/>
+    <Message>--- Application finished. ---</Message>
+  </Event>
+</Events>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692573660713" thread="main" level="INFO" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692573660" nanoOfSecond="713214500"/>
+    <Message>--- Application started. ---</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692573662226" thread="main" level="INFO" loggerName="XLSX.XLSXRead" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692573662" nanoOfSecond="226838000"/>
+    <Message>StudentCollection were read successfully. Size of list: 11</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692573662239" thread="main" level="INFO" loggerName="XLSX.XLSXRead" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692573662" nanoOfSecond="239314000"/>
+    <Message>UniversityCollection were read successfully. Size of list: 7</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692573662305" thread="main" level="ERROR" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692573662" nanoOfSecond="305687900"/>
+    <Message>JAXB throws Exception.</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692573662306" thread="main" level="INFO" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692573662" nanoOfSecond="306685800"/>
+    <Message>--- Application finished. ---</Message>
+  </Event>
+</Events>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692573776927" thread="main" level="INFO" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692573776" nanoOfSecond="927765200"/>
+    <Message>--- Application started. ---</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692573778654" thread="main" level="INFO" loggerName="XLSX.XLSXRead" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692573778" nanoOfSecond="654982900"/>
+    <Message>StudentCollection were read successfully. Size of list: 11</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692573778667" thread="main" level="INFO" loggerName="XLSX.XLSXRead" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692573778" nanoOfSecond="667959700"/>
+    <Message>UniversityCollection were read successfully. Size of list: 7</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692573778813" thread="main" level="ERROR" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692573778" nanoOfSecond="813682000"/>
+    <Message>JAXB throws Exception.</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692573778814" thread="main" level="INFO" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692573778" nanoOfSecond="814679700"/>
+    <Message>--- Application finished. ---</Message>
+  </Event>
+</Events>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692574640272" thread="main" level="INFO" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692574640" nanoOfSecond="272625000"/>
+    <Message>--- Application started. ---</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692574641617" thread="main" level="INFO" loggerName="XLSX.XLSXRead" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692574641" nanoOfSecond="617069700"/>
+    <Message>StudentCollection were read successfully. Size of list: 11</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692574641630" thread="main" level="INFO" loggerName="XLSX.XLSXRead" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692574641" nanoOfSecond="630545600"/>
+    <Message>UniversityCollection were read successfully. Size of list: 7</Message>
+  </Event>
+</Events>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692575661637" thread="main" level="INFO" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692575661" nanoOfSecond="637135000"/>
+    <Message>--- Application started. ---</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692575663050" thread="main" level="INFO" loggerName="XLSX.XLSXRead" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692575663" nanoOfSecond="50449700"/>
+    <Message>StudentCollection were read successfully. Size of list: 11</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692575663062" thread="main" level="INFO" loggerName="XLSX.XLSXRead" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692575663" nanoOfSecond="62925600"/>
+    <Message>UniversityCollection were read successfully. Size of list: 7</Message>
+  </Event>
+</Events>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692575829545" thread="main" level="INFO" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692575829" nanoOfSecond="545685600"/>
+    <Message>--- Application started. ---</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692575831068" thread="main" level="INFO" loggerName="XLSX.XLSXRead" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692575831" nanoOfSecond="68790600"/>
+    <Message>StudentCollection were read successfully. Size of list: 11</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692575831085" thread="main" level="INFO" loggerName="XLSX.XLSXRead" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692575831" nanoOfSecond="85758500"/>
+    <Message>UniversityCollection were read successfully. Size of list: 7</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692575831173" thread="main" level="INFO" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692575831" nanoOfSecond="173092200"/>
+    <Message>--- Application finished. ---</Message>
+  </Event>
+</Events>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692575876452" thread="main" level="INFO" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692575876" nanoOfSecond="452576100"/>
+    <Message>--- Application started. ---</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692575877981" thread="main" level="INFO" loggerName="XLSX.XLSXRead" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692575877" nanoOfSecond="981172100"/>
+    <Message>StudentCollection were read successfully. Size of list: 11</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692575877995" thread="main" level="INFO" loggerName="XLSX.XLSXRead" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692575877" nanoOfSecond="995145000"/>
+    <Message>UniversityCollection were read successfully. Size of list: 7</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692575878020" thread="main" level="INFO" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692575878" nanoOfSecond="20097100"/>
+    <Message>--- Application finished. ---</Message>
+  </Event>
+</Events>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692575908088" thread="main" level="INFO" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692575908" nanoOfSecond="88374300"/>
+    <Message>--- Application started. ---</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692575909374" thread="main" level="INFO" loggerName="XLSX.XLSXRead" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692575909" nanoOfSecond="374430100"/>
+    <Message>StudentCollection were read successfully. Size of list: 11</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692575909381" thread="main" level="INFO" loggerName="XLSX.XLSXRead" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692575909" nanoOfSecond="381416200"/>
+    <Message>UniversityCollection were read successfully. Size of list: 7</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692575909588" thread="main" level="INFO" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692575909" nanoOfSecond="588523000"/>
+    <Message>--- Application finished. ---</Message>
+  </Event>
+</Events>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692576394402" thread="main" level="INFO" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692576394" nanoOfSecond="402226300"/>
+    <Message>--- Application started. ---</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692576395732" thread="main" level="INFO" loggerName="XLSX.XLSXRead" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692576395" nanoOfSecond="732199000"/>
+    <Message>StudentCollection were read successfully. Size of list: 11</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692576395746" thread="main" level="INFO" loggerName="XLSX.XLSXRead" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692576395" nanoOfSecond="746173000"/>
+    <Message>UniversityCollection were read successfully. Size of list: 7</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692576395976" thread="main" level="INFO" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692576395" nanoOfSecond="976236000"/>
+    <Message>--- Application finished. ---</Message>
+  </Event>
+</Events>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692576468295" thread="main" level="INFO" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692576468" nanoOfSecond="295717800"/>
+    <Message>--- Application started. ---</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692576469560" thread="main" level="INFO" loggerName="XLSX.XLSXRead" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692576469" nanoOfSecond="560813300"/>
+    <Message>StudentCollection were read successfully. Size of list: 11</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692576469567" thread="main" level="INFO" loggerName="XLSX.XLSXRead" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692576469" nanoOfSecond="567301600"/>
+    <Message>UniversityCollection were read successfully. Size of list: 7</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692576469808" thread="main" level="INFO" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692576469" nanoOfSecond="808842300"/>
+    <Message>--- Application finished. ---</Message>
+  </Event>
+</Events>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692576513856" thread="main" level="INFO" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692576513" nanoOfSecond="856579400"/>
+    <Message>--- Application started. ---</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692576515020" thread="main" level="INFO" loggerName="XLSX.XLSXRead" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692576515" nanoOfSecond="20367700"/>
+    <Message>StudentCollection were read successfully. Size of list: 11</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692576515030" thread="main" level="INFO" loggerName="XLSX.XLSXRead" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692576515" nanoOfSecond="30348800"/>
+    <Message>UniversityCollection were read successfully. Size of list: 7</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692576515237" thread="main" level="INFO" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692576515" nanoOfSecond="237954000"/>
+    <Message>--- Application finished. ---</Message>
+  </Event>
+</Events>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692576564074" thread="main" level="INFO" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692576564" nanoOfSecond="74074300"/>
+    <Message>--- Application started. ---</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692576565259" thread="main" level="INFO" loggerName="XLSX.XLSXRead" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692576565" nanoOfSecond="259821500"/>
+    <Message>StudentCollection were read successfully. Size of list: 11</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692576565273" thread="main" level="INFO" loggerName="XLSX.XLSXRead" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692576565" nanoOfSecond="273795300"/>
+    <Message>UniversityCollection were read successfully. Size of list: 7</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692576565483" thread="main" level="INFO" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692576565" nanoOfSecond="483397100"/>
+    <Message>--- Application finished. ---</Message>
+  </Event>
+</Events>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692577192083" thread="main" level="INFO" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692577192" nanoOfSecond="83410400"/>
+    <Message>--- Application started. ---</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692577193363" thread="main" level="INFO" loggerName="XLSX.XLSXRead" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692577193" nanoOfSecond="363976500"/>
+    <Message>StudentCollection were read successfully. Size of list: 11</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692577193377" thread="main" level="INFO" loggerName="XLSX.XLSXRead" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692577193" nanoOfSecond="377451100"/>
+    <Message>UniversityCollection were read successfully. Size of list: 7</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692577193593" thread="main" level="ERROR" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692577193" nanoOfSecond="593042200"/>
+    <Message>JAXB throws Exception.</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692577193594" thread="main" level="INFO" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692577193" nanoOfSecond="594538300"/>
+    <Message>--- Application finished. ---</Message>
+  </Event>
+</Events>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692577531671" thread="main" level="INFO" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692577531" nanoOfSecond="671219800"/>
+    <Message>--- Application started. ---</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692577532865" thread="main" level="INFO" loggerName="XLSX.XLSXRead" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692577532" nanoOfSecond="865949500"/>
+    <Message>StudentCollection were read successfully. Size of list: 11</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692577532879" thread="main" level="INFO" loggerName="XLSX.XLSXRead" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692577532" nanoOfSecond="879922800"/>
+    <Message>UniversityCollection were read successfully. Size of list: 7</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692577533174" thread="main" level="ERROR" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692577533" nanoOfSecond="174363400"/>
+    <Message>JAXB throws Exception.</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692577533175" thread="main" level="INFO" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692577533" nanoOfSecond="175362100"/>
+    <Message>--- Application finished. ---</Message>
+  </Event>
+</Events>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692577563709" thread="main" level="INFO" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692577563" nanoOfSecond="709629500"/>
+    <Message>--- Application started. ---</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692577564935" thread="main" level="INFO" loggerName="XLSX.XLSXRead" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692577564" nanoOfSecond="935799300"/>
+    <Message>StudentCollection were read successfully. Size of list: 11</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692577564950" thread="main" level="INFO" loggerName="XLSX.XLSXRead" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692577564" nanoOfSecond="950771100"/>
+    <Message>UniversityCollection were read successfully. Size of list: 7</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692577565190" thread="main" level="ERROR" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692577565" nanoOfSecond="190314800"/>
+    <Message>JAXB throws Exception.</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692577565191" thread="main" level="INFO" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692577565" nanoOfSecond="191312800"/>
+    <Message>--- Application finished. ---</Message>
+  </Event>
+</Events>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692577699426" thread="main" level="INFO" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692577699" nanoOfSecond="426139500"/>
+    <Message>--- Application started. ---</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692577700895" thread="main" level="INFO" loggerName="XLSX.XLSXRead" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692577700" nanoOfSecond="895846700"/>
+    <Message>StudentCollection were read successfully. Size of list: 11</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692577700900" thread="main" level="INFO" loggerName="XLSX.XLSXRead" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692577700" nanoOfSecond="900836300"/>
+    <Message>UniversityCollection were read successfully. Size of list: 7</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692577701135" thread="main" level="ERROR" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692577701" nanoOfSecond="135889300"/>
+    <Message>JAXB throws Exception.</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692577701136" thread="main" level="INFO" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692577701" nanoOfSecond="136887300"/>
+    <Message>--- Application finished. ---</Message>
+  </Event>
+</Events>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692577855811" thread="main" level="INFO" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692577855" nanoOfSecond="811509100"/>
+    <Message>--- Application started. ---</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692577856995" thread="main" level="INFO" loggerName="XLSX.XLSXRead" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692577856" nanoOfSecond="995259200"/>
+    <Message>StudentCollection were read successfully. Size of list: 11</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692577857001" thread="main" level="INFO" loggerName="XLSX.XLSXRead" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692577857" nanoOfSecond="1247800"/>
+    <Message>UniversityCollection were read successfully. Size of list: 7</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692577857425" thread="main" level="ERROR" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692577857" nanoOfSecond="425940600"/>
+    <Message>JAXB throws Exception.</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692577857426" thread="main" level="INFO" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692577857" nanoOfSecond="426940100"/>
+    <Message>--- Application finished. ---</Message>
+  </Event>
+</Events>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692577947726" thread="main" level="INFO" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692577947" nanoOfSecond="726412700"/>
+    <Message>--- Application started. ---</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692577948980" thread="main" level="INFO" loggerName="XLSX.XLSXRead" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692577948" nanoOfSecond="980030400"/>
+    <Message>StudentCollection were read successfully. Size of list: 11</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692577948985" thread="main" level="INFO" loggerName="XLSX.XLSXRead" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692577948" nanoOfSecond="985520100"/>
+    <Message>UniversityCollection were read successfully. Size of list: 7</Message>
+  </Event>
+
+  <Event xmlns="http://logging.apache.org/log4j/2.0/events" timeMillis="1692577949243" thread="main" level="INFO" loggerName="Main" endOfBatch="false" loggerFqcn="org.apache.logging.log4j.spi.AbstractLogger" threadId="1" threadPriority="5">
+    <Instant epochSecond="1692577949" nanoOfSecond="243530400"/>
     <Message>--- Application finished. ---</Message>
   </Event>
 </Events>

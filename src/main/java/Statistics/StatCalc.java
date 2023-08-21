@@ -14,8 +14,8 @@ import java.util.stream.Collectors;
 import static java.math.RoundingMode.HALF_EVEN;
 
 public class StatCalc {
-    public static List<Statistics> calculation(List<Student> students, List<University> universities) {
-        List<Statistics> statistics = new ArrayList<>();
+    public static ArrayList<Statistics> calculation(List<Student> students, List<University> universities) {
+        ArrayList<Statistics> statistics = new ArrayList<>();
 
         Set<StudyProfile> profiles = new HashSet<>();
         universities.forEach(university -> profiles.add(university.getMainProfile()));

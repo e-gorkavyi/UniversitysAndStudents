@@ -1,5 +1,6 @@
 package Main;
 
+import Statistics.Statistics;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 
@@ -14,7 +15,7 @@ public class JsonUtil {
         return gson.toJson(student);
     }
 
-    public static String studentCollectionSerialize(Collection<Student> studentCollection) {
+    public static String studentCollectionSerialize(Collection<Object> studentCollection) {
         return new Gson().toJson(studentCollection);
     }
 
@@ -32,7 +33,7 @@ public class JsonUtil {
         return new Gson().toJson(university);
     }
 
-    public static String universityCollectionSerialize(Collection<University> universityCollection) {
+    public static String universityCollectionSerialize(Collection<Object> universityCollection) {
         return new Gson().toJson(universityCollection);
     }
 
@@ -44,4 +45,27 @@ public class JsonUtil {
         Type listType = new TypeToken<ArrayList<University>>(){}.getType();
         return new Gson().fromJson(universityCollectionJSON, listType);
     }
+
+    private static String statisticsCollectionSerialize(Collection<Object> collection) {
+        return new Gson().toJson(collection);
+    }
+
+    public static String collectionSerialize(Collection<Object> collection) {
+        if (!collection.isEmpty()) {
+            Object element = collection.iterator().next();
+            Class<?> elementType = element.getClass();
+            if (elementType.equals(University.class)) {
+
+                return universityCollectionSerialize(collection);
+            } else if (elementType.equals(Student.class)) {
+                return studentCollectionSerialize(collection);
+            } else if (elementType.equals(Statistics.class)) {
+                return statisticsCollectionSerialize(collection);
+            } else {
+                throw new IllegalStateException("Unexpected value: " + elementType);
+            }
+        }
+        return "";
+    }
+
 }

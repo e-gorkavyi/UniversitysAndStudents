@@ -2,16 +2,25 @@ package Main;
 
 import com.google.gson.annotations.SerializedName;
 
+import javax.xml.bind.annotation.*;
+
+@XmlRootElement(name = "universityEntry")
+@XmlAccessorType(XmlAccessType.FIELD)
 public class University {
-    @SerializedName("ID")
+    @SerializedName("universityId")
+    @XmlElement(name = "universityId")
     private String id;
-    @SerializedName("UniversityFullName")
+    @SerializedName("universityName")
+    @XmlElement(name = "universityName")
     private String fullName;
     @SerializedName("UniversityShortName")
+    @XmlTransient
     private String shortName;
     @SerializedName("YearOfFoundation")
+    @XmlTransient
     private int yearOfFoundation;
-    @SerializedName("MainProfile")
+    @SerializedName("universityProfile")
+    @XmlElement(name = "universityProfile")
     private StudyProfile mainProfile;
 
     public boolean equalsByID(Student student) {
