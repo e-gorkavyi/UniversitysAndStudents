@@ -2,6 +2,8 @@ package Statistics;
 
 import Main.StatFields;
 import Main.StudyProfile;
+import com.google.gson.annotations.Expose;
+import com.google.gson.annotations.SerializedName;
 
 import java.util.List;
 import javax.xml.bind.annotation.*;
@@ -9,8 +11,12 @@ import javax.xml.bind.annotation.*;
 @XmlRootElement(name = "statisticsEntry")
 @XmlAccessorType(XmlAccessType.FIELD)
 public class Statistics {
+    @Expose
+    @SerializedName("universityProfile")
     @XmlElement(name = "universityProfile")
     private StudyProfile studyProfile;
+    @Expose
+    @SerializedName("avgScore")
     @XmlElement(name = "avgScore")
     private double avgExamScore;
     @XmlTransient
@@ -20,7 +26,8 @@ public class Statistics {
     @XmlTransient
     private List<String> universitiesNames;
 
-    public Statistics(){}
+    public Statistics() {
+    }
 
     public Statistics(StudyProfile studyProfile,
                       double avgExamScore,

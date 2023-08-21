@@ -1,28 +1,24 @@
 package DataOutput;
 
 import Main.DataCollection;
+import Main.JsonUtil;
 
-import javax.xml.bind.JAXBContext;
-import javax.xml.bind.JAXBException;
-import javax.xml.bind.Marshaller;
 import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.nio.file.Paths;
 import java.text.SimpleDateFormat;
 
-public class XmlOutput {
+public class JsonOutput {
     static DataCollection dataCollection = new DataCollection();
     private String filePath;
 
-    private XmlOutput() {
-        this(null, null);
-    }
-
-    public XmlOutput(DataCollection dataCOl, String filePath) {
+    public JsonOutput(DataCollection dataCOl, String filePath) {
         dataCollection = dataCOl;
         this.filePath = filePath;
     }
 
-    public void out() throws JAXBException {
+    public void out() throws IOException {
         String outFileName = filePath.replaceAll(
                 "--datetime--",
                 new SimpleDateFormat("yyyy-MM-dd'T'HH-mm-ss.SSS")
@@ -30,11 +26,9 @@ public class XmlOutput {
         File dir = new File(Paths.get(outFileName).getParent().toUri());
         if (!dir.exists())
             dir.mkdirs();
-        JAXBContext context = JAXBContext.newInstance(DataCollection.class);
-        Marshaller marshaller = context.createMarshaller();
-        marshaller.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, true);
-        marshaller.marshal(dataCollection, new File(outFileName));
-
+        String jsonString = JsonUtil.collectionOfCollectionsSerialize(dataCollection);
+        FileWriter jsonWrite = new FileWriter(new File(outFileName));
+        jsonWrite.write(jsonString);
+        jsonWrite.close();
     }
 }
-

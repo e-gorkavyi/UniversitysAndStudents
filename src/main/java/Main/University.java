@@ -1,5 +1,6 @@
 package Main;
 
+import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
 import javax.xml.bind.annotation.*;
@@ -7,18 +8,19 @@ import javax.xml.bind.annotation.*;
 @XmlRootElement(name = "universityEntry")
 @XmlAccessorType(XmlAccessType.FIELD)
 public class University {
+    @Expose
     @SerializedName("universityId")
     @XmlElement(name = "universityId")
     private String id;
+    @Expose
     @SerializedName("universityName")
     @XmlElement(name = "universityName")
     private String fullName;
-    @SerializedName("UniversityShortName")
     @XmlTransient
     private String shortName;
-    @SerializedName("YearOfFoundation")
     @XmlTransient
     private int yearOfFoundation;
+    @Expose
     @SerializedName("universityProfile")
     @XmlElement(name = "universityProfile")
     private StudyProfile mainProfile;

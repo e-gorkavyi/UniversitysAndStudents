@@ -1,6 +1,8 @@
 package XLSX;
 
 import Statistics.Statistics;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.ss.usermodel.Font;
 import org.apache.poi.ss.usermodel.HorizontalAlignment;
@@ -9,21 +11,17 @@ import org.apache.poi.xssf.usermodel.XSSFCellStyle;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
-import org.apache.logging.log4j.Logger;
-import org.apache.logging.log4j.LogManager;
-
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.util.Iterator;
 import java.util.List;
 
 public class XLSXWriter {
+    public static final XLSXWriter INSTANCE = new XLSXWriter();
     protected static final Logger logger = LogManager.getLogger();
 
     private XLSXWriter() {
     }
-
-    public static final XLSXWriter INSTANCE = new XLSXWriter();
 
     public void create(List<Statistics> statistics, String filePath) throws IOException {
         String[] headers = {

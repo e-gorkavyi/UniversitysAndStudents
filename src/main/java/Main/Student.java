@@ -1,5 +1,6 @@
 package Main;
 
+import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
 import javax.xml.bind.annotation.*;
@@ -8,19 +9,17 @@ import javax.xml.bind.annotation.*;
 @XmlAccessorType(XmlAccessType.FIELD)
 public class Student {
     @SerializedName("studentName")
+    @Expose
     @XmlElement(name = "studentName")
     private String fullName;
     @SerializedName("universityId")
+    @Expose
     private String universityId;
-    @SerializedName("currentCourseNumber")
     @XmlTransient
     private int currentCourseNumber;
     @SerializedName("avgScore")
+    @Expose
     private float avgExamScore;
-
-    public boolean equalsByID(University university) {
-        return this.universityId.equals(university.getId());
-    }
 
     public Student() {
         this("", "", 0, 0);
@@ -31,6 +30,10 @@ public class Student {
         this.universityId = universityId;
         this.currentCourseNumber = currentCourseNumber;
         this.avgExamScore = avgExamScore;
+    }
+
+    public boolean equalsByID(University university) {
+        return this.universityId.equals(university.getId());
     }
 
     @Override

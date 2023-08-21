@@ -1,6 +1,7 @@
 package Statistics;
 
 import Main.StatFields;
+import com.google.gson.annotations.Expose;
 
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
@@ -11,6 +12,7 @@ import java.util.ArrayList;
 @XmlRootElement(name = "statisticalInfo")
 @XmlAccessorType(XmlAccessType.FIELD)
 public class StatisticsCollection extends StatFields {
+    @Expose
     @XmlElement(name = "statisticsEntry")
     private ArrayList<Statistics> statistics = null;
 
